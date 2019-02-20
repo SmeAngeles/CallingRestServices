@@ -15,7 +15,7 @@ class postAlamofireVC: UIViewController {
     @IBOutlet weak var postTableV: UITableView!
     
     
-    var url: String = "https://www.proinversion.mx:2143/ImpulsaT/Oportunidades/ConsultarRendimientoNeto"
+    var url: String = ""
     var parameters = [String:Any]()
     var header: [String:String] = ["Authorization" : "Basic cndzcHJheGlzcDpQcjR4MXMjdTVS"]
     var arrRendimiento = [[String:AnyObject]]()
